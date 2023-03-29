@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+<head>
+  <title>Projects</title>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="Stylelinks.css">
+  <script src="https://kit.fontawesome.com/3ad4364d40.js" crossorigin="anonymous"></script>
+  <style>
+  #accordion { 
+      width: 50%;
+      height: 20%;
+      padding: 1px;
+      display: block;
+
+    }
+  .sortable li {
+      margin: 4px;
+      width: 60%;
+      padding:1px;
+      border: 2px solid black;
+      text-align: center;
+      background-color: black;
+      color: black;
+  }
+ 
+  </style>
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+  
+</head>
+<body>
+    <header>
+    <nav>
+    <a href="Main.html"><i class="fa-solid fa-house"></i> Home </a> 
+    <a href="Projects.html"><i class="fa-solid fa-box-archive"></i> Projects </a>
+    <a href="Bio.html"><i class="fa-solid fa-user"></i> About </a>
+    <a href="Contact.html"><i class="fa-solid fa-address-book"></i> Contact </a>
+    <a href="Resume.html"><i class="fa-solid fa-file-lines"></i> Resume </a>
+    <a href="Projects2.html"><i class="fa-solid fa-gamepad"></i> Minigame </a>
+    </nav>
+    </header>
+    <h1 style="text-decoration: underline;">Minigame</h1>
+    <h2>Objective: Put the numbers in order. <br> Instructions: Drag the boxes to adjust their order. <br> Tips: Double clicking the boxes will provide you some help and clicking once will cover them again. When you think you are done, check your results.</h2>
+<div id="accordion">
+    <h3>Level 1</h3>
+    <div>
+        <ul class="sortable">
+            <li>4</li>
+            <li>3</li>
+            <li>1</li>
+            <li>6</li>
+            <li>5</li>
+            <li>2</li>
+        </ul>
+    </div>
+    <h3>Level 2</h3>
+    <div>
+        <ul class="sortable">
+            <li>1</li>
+            <li>11</li>
+            <li>3</li>
+            <li>4</li>
+            <li>7</li>
+            <li>10</li>
+            <li>8</li>
+            <li>5</li>
+            <li>9</li>
+            <li>6</li>
+            <li>12</li>
+            <li>1</li>
+        </ul>
+    </div>
+    <h3>Level 3</h3>
+    <div>
+        <ul class="sortable">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>24</li>
+            <li>15</li>
+            <li>7</li>
+            <li>8</li>
+            <li>6</li>
+            <li>9</li>
+            <li>10</li>
+            <li>13</li>
+            <li>11</li>
+            <li>14</li>
+            <li>12</li>
+            <li>5</li>
+            <li>16</li>
+            <li>18</li>
+            <li>21</li>
+            <li>19</li>
+            <li>20</li>
+            <li>17</li>
+            <li>22</li>
+            <li>4</li>
+            <li>23</li>
+        </ul>
+    </div>
+</div>
+ 
+<script>
+$(document).ready(function(){
+$( function() {
+    $( "#accordion" ).accordion();
+  } );
+$(function() {
+    $('.sortable').sortable();
+    $
+  });
+$(function() {
+    $('.sortable').sortable();
+  });
+$(function() {
+    $('.sortable').sortable();
+  });
+$('ul').dblclick(function(){
+    $('li').css('background-color','white')
+});
+$('ul').click(function(){
+    $('li').css('background-color', 'black')
+});        
+});
+</script>
+</body>
+</html>

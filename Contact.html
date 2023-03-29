@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="Stylelinks.css">
+    <script src="https://kit.fontawesome.com/3ad4364d40.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+        <a href="Main.html"><i class="fa-solid fa-house"></i> Home </a> 
+        <a href="Projects.html"><i class="fa-solid fa-box-archive"></i> Projects </a>
+        <a href="Bio.html"><i class="fa-solid fa-user"></i> About </a>
+        <a href="Contact.html"><i class="fa-solid fa-address-book"></i> Contact </a>
+        <a href="Resume.html"><i class="fa-solid fa-file-lines"></i> Resume </a>
+        <a href="Projects2.html"><i class="fa-solid fa-gamepad"></i> Minigame </a>
+        </nav>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    </header><br>
+    <section class="contactlinks">
+        <h1>My Contact Information</h1>
+        <ul>
+        <li><a href="https://www.linkedin.com/in/thiago-simoes-de-souza-gomes-754596233">My Linkedin</a></li>
+        <li><a href="#">thiagosimoessgomes@gmail.com</a></li>
+        <li><a href="https://github.com/n01468775">My GitHub</a></li></ul>
+    </section>
+    <form>
+        <label for="firstname">First name: </label>
+        <input type="text" name="name" id="firstname"><br>
+        <label for="lastname">Last name: </label>
+        <input type="text" name="name" id="lastname"><br>
+        <label for="email">E-mail: </label>
+        <input type="text" name="email" id="email"><br>
+        <label for="extrainfo">Extra information: </label>
+        <textarea name="info" id="extrainfo" cols="21" rows="5"></textarea>
+        <input class="ui-button ui-widget ui-corner-all" type="submit" name="submit" id="submit" onclick="Alert()">
+        <input class="ui-button ui-widget ui-corner-all" type="reset" name="reset" id="reset" onclick="Alert2()">
+    </form>
+<script>
+ function Alert() {
+        alert("Your answers have been submitted! Thank you!");
+    }
+function Alert2() {
+    alert("Your answers have been resetted!")
+}
+</script>
+</body>
+</html>

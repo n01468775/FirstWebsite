@@ -1,0 +1,123 @@
+header a:link {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+}
+header a:visited { 
+    color:#000;
+    background-color: transparent;
+    text-decoration: none;
+}
+header a:hover {
+    color:red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+header a:active {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+} 
+header a {
+    border:2px solid rgb(0, 0, 0);
+    margin: 2px;
+    padding: 2px;
+}
+
+.contactlinks a:visited , a:link {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.contactlinks a:hover {
+    color:red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.divpbio {
+    width: 49%;
+    float: right;
+    position: relative;
+    font-size: 1.1em;
+    text-align: justify;
+}
+.divimgbio {
+    width: 50%;
+    float: left;
+    position: relative;
+}
+.photobio {
+    width: 700px;
+    height: 500px;
+    position:relative;
+    border: 2px solid #000;
+}
+.divbio {
+    width: 100%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#resume {
+    border: 2px solid black;
+    padding: 5px;
+    margin: 2px 3px;
+    width: 45%;
+    display: block;
+    float: left;
+    clear: left;
+}
+#resumeh3 {
+    text-decoration: underline 2px black;
+}
+input {
+    background-color: #eaeaea;
+    display: block;
+    margin-top: 1px;
+}
+label {
+    float: left;
+    width: 90px;
+    clear: left;
+    text-align: center;
+    padding-top: 2px;
+    padding-right: 5px;
+    display: block;
+
+}
+#submit {
+    display: block;
+    float: left;
+    clear: left;
+    margin-right: 40px; 
+    margin-left: 100px;
+    margin-top: 10px;
+}
+#reset {
+    display: block;
+    margin-top: 10px;
+}
+#calculator {
+    display: block;
+    margin-top: 20px;
+}
+#divproject {
+    display: block;
+}
+#resume2 {
+    border: 2px solid black;
+    padding: 5px;
+    margin: 2px 3px;
+    width: 50%;
+    float: right;
+    clear: right;
+    display:block;
+}
+.mainpage {
+    display: block;
+    border: 5px double black;
+    width: 40%;
+}
+
+body {
+    background-color: lightblue;
+}
